@@ -1,0 +1,7 @@
+# 디아블로 IV 크로스플랫폼 통합 매크로 의존성 목록
+PyQt6>=6.5.0
+pynput>=1.7.6
+pyinstaller>=6.4.0
+
+# Linux 전용 커널 하드웨어 입력 감지 (Windows 설치 시 자동 제외)
+evdev>=1.6.0; sys_platform == 'linux'

@@ -1,0 +1,20 @@
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller 빌드 결과물 및 임시 파일
+build/
+dist/
+*.spec
+
+# 바이너리 실행 파일 (대용량 파일)
+diablo4-macro
+diablo4-macro-qt
+d4_macro
+wtype
+*.exe
+
+# 로그 및 시스템 파일
+*.log
+.DS_Store

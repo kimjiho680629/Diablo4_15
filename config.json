@@ -1,0 +1,47 @@
+{
+  "master_enabled": true,
+  "emergency_stop_key": "f12",
+  "macro1": {
+    "name": "매크로 1 (Ctrl + 우클릭 연타)",
+    "enabled": true,
+    "target_type": "ctrl_mouse_right",
+    "target_value": "ctrl_right",
+    "burst_count": 100,
+    "press_delay_ms": 1.0,
+    "release_delay_ms": 1.0,
+    "mode": "hold",
+    "mouse_trigger": "none",
+    "keyboard_trigger": "f1",
+    "high_precision": true
+  },
+  "macro2": {
+    "name": "매크로 2 (Ctrl + 좌클릭 아이템 버리기)",
+    "enabled": true,
+    "target_type": "ctrl_mouse_left",
+    "target_value": "ctrl_left",
+    "burst_count": 50,
+    "press_delay_ms": 2.0,
+    "release_delay_ms": 2.0,
+    "mode": "hold",
+    "mouse_trigger": "none",
+    "keyboard_trigger": "f2",
+    "high_precision": true
+  },
+  "skill_macro": {
+    "name": "스킬 자동 연타 (1~5)",
+    "enabled": true,
+    "mode": "toggle",
+    "keyboard_trigger": "f4",
+    "mouse_trigger": "none",
+    "skill_keys": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "press_delay_ms": 20.0,
+    "interval_ms": 30.0,
+    "cycle_delay_ms": 80.0,
+    "show_notifications": false
+  }
+}
