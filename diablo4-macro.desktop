@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Diablo IV Macro
+Name[ko]=디아블로 IV 통합 매크로
+GenericName=Gaming Macro Tool
+Comment=디아블로4 스킬 자동 연타(1~5 루프) 및 초고속 듀얼 매크로 (Ctrl+우클릭 & 아이템 일괄 버리기)
+Path=/mnt/Data1/Gemini_Job/Diablo4_15
+Exec=/mnt/Data1/Gemini_Job/Diablo4_15/diablo4-macro
+Icon=input-gaming
+Terminal=false
+Categories=Game;Utility;
+Keywords=diablo;macro;d4;gaming;logitech;skill;디아블로;매크로;마우스;스킬연타;
+StartupWMClass=com.diablo4.macro

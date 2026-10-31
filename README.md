@@ -58,7 +58,11 @@ build_windows.bat
 ./diablo4-macro-qt
 ```
 
-### 2. 기존 GTK4 매크로 실행 (유지됨)
+### 2. 애플리케이션 런처 (.desktop) 실행
+* 리눅스 데스크탑 환경의 프로그램 런처(Rofi, Wofi, Walker, GNOME/KDE 메뉴 등)에서 **"디아블로 IV 통합 매크로 (Qt)"** 또는 **"Diablo IV Macro (Qt)"**를 검색하여 클릭 한 번으로 실행할 수 있습니다.
+* 런처 파일: `~/.local/share/applications/diablo4-macro-qt.desktop`
+
+### 3. 기존 GTK4 매크로 실행 (유지됨)
 ```bash
 ./run.sh
 # 또는
